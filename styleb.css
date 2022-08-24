@@ -1,0 +1,36 @@
+:root {
+    --primary-color: snow;
+    --secondary-color: rgb(9, 5, 66);
+    
+}
+body {
+    margin: 0;
+    font: sans-serif, serif
+}
+
+.header, .header > .subheader{
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.header > h1, .header > h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.subheader {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.subheader > div {
+    width: 20%;
+    float: left;
+}
+
