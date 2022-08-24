@@ -1,6 +1,8 @@
 .header {
     width: 100%;
-    text-align: center
+    text-align: center;
+    color: rgb(230, 229, 240);
+    background-color:rgb(12, 8, 66);
 }
 
 .subheader {
