@@ -1,8 +1,12 @@
+body {
+    margin: 0
+}
+
 .header {
     width: 100%;
     text-align: center;
-    color: rgb(230, 229, 240);
-    background-color:rgb(12, 8, 66);
+    color: snow;
+    background-color:rgb(9, 5, 66);
 }
 
 .subheader {
@@ -14,8 +18,6 @@
 
 .subheader > p {
     width: 20%;
-}
-
-.row {
     float: left;
 }
+
