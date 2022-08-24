@@ -15,3 +15,7 @@
 .subheader > p {
     width: 20%;
 }
+
+.row {
+    float: left;
+}
