@@ -1,6 +1,6 @@
 :root {
     --primary-color: snow;
-    --secondary-color: rgb(9, 5, 66);
+    --secondary-color: rgb(31, 22, 160);
     
 }
 body {
@@ -38,8 +38,8 @@ body {
     padding-bottom: 0.3rem;
     margin-left: 0;
     margin-right: 0;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .subheader > div {
