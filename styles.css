@@ -1,4 +1,15 @@
-h1 {
+.header {
     width: 100%;
     text-align: center
+}
+
+.subheader {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.subheader > p {
+    width: 20%;
 }
