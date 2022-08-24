@@ -2,16 +2,18 @@ body {
     margin: 0
 }
 
-.header {
+.header, .header > .subheader{
     width: 100%;
     text-align: center;
     color: snow;
     background-color:rgb(9, 5, 66);
 }
 
+.header > h1 {
+    margin-top: 0;
+}
+
 .subheader {
-    width: 100%;
-    text-align: center;
     margin-left: 0;
     margin-right: 0;
 }
