@@ -40,8 +40,14 @@ body {
     margin-right: 0;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    border-bottom: 1rem solid;
-    border-color: var(--seconday-color);
+}
+
+.divider {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 0.5rem;
+    background-color: var(--secondary-color);
 }
 
 .subheader > div {
