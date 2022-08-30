@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
 </head>   
 <body>
-    <div class="col-12 header" #top>
+    <div class="col-12 header" id="top">
         <h1>SIMPLE ASSET RETURN SERVICES</h1>
         <h3>844-595-9590</h3>
     </div>
@@ -35,7 +35,7 @@
             </a>
         </div>
     </div>
-    <div class="section" #home>
+    <div class="section" id="home">
         U.S. residents are missing many, many billions of dollars in unclaimed property.
         <br>
         Much of this missing property is turned over to state governments and treasuries, after designated periods
@@ -55,7 +55,7 @@
         <br>
         <a href="#top">Back To Top</a>
     </div>
-    <div class="section" #letter>
+    <div class="section" id="letter">
         <h3>Did you receive a letter from Simple Asset Return Services?</h3>
         <br>
         If so, thanks for visiting, and read on!
@@ -81,7 +81,7 @@
         <br>
         <a href="#top">Back To Top</a>
     </div>
-    <div class="section" #faq>
+    <div class="section" id="faq">
         <h3>Frequently Asked Questions</h3>
         <ul>
             <li>
@@ -123,11 +123,15 @@
         </ul>
         <a href="#top">Back To Top</a>
     </div>
-    <div class="section" #about>
+    <div class="section" id="about">
         <a href="#top">Back To Top</a>
     </div>
-    <div class="section" #contact>
+    <div class="section" id="contact">
         <a href="#top">Back To Top</a>
     </div>
 </body>
 </html>
+<script>
+    var sections = ['home', 'letter', 'faq', 'about', 'contact'];
+    sections.forEach(console.log(x));
+</script>
