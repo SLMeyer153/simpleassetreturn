@@ -29,7 +29,8 @@ body {
 }
 .header {
     text-align: center;
-    background-color: var(--color-five);
+    background-color: var(--color-one);
+    margin-top: 0;
 }
 
 
