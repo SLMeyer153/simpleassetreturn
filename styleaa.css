@@ -7,5 +7,29 @@
 }
 body {
    background-color: var(--color-three);
+   margin: 0;
 }
+.col-12 {
+    width: 100%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-2 {
+    width: 1/6%;
+}
+.row {
+    float: left;
+}
+.header {
+    text-align: center;
+    background-color: var(--color-five);
+}
+
 
