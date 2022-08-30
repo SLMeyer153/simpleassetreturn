@@ -33,6 +33,9 @@ body {
 .header {
     text-align: center;
     background-color: var(--color-one);
+}
+
+.header > h1 {
     margin-top: 0;
 }
 
