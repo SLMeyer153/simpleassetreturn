@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style9.css">
+    <link rel="stylesheet" href="style10.css">
 </head>
 <body>
     <div class="container">
         <h1 class="header">Simple Asset Return Services</h1>
 
+        <button class="accordion">Information</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button class="accordion">I Recieved A Letter</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button class="accordion">FAQS</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
     </div>
 </body> 
 <!-- <body>
@@ -137,3 +151,21 @@
     </div>
 </body> -->
 </html>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+
+    acc[0].nextElementSibling.style.maxHeight = panel.scrollHeight + "px";
+</script>
