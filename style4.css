@@ -9,6 +9,8 @@ body {
    background-color: var(--color-three);
    margin: 0;
    background-image: url(abstract-background.jpg);
+   background-position: center;
+   background-size: cover;
 }
 .col-12 {
     width: 100%;
