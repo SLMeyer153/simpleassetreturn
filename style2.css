@@ -8,6 +8,7 @@
 body {
    background-color: var(--color-three);
    margin: 0;
+   background-image: url(abstract-background.jpg);
 }
 .col-12 {
     width: 100%;
