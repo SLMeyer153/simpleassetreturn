@@ -6,7 +6,7 @@
     --color-five: #0b2237;   
 }
 body {
-   background-color: var(--color-two);
+   background-color: var(--color-three);
    margin: 0;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,arial,sans-serif;
 }
