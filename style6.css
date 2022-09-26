@@ -1,14 +1,13 @@
 :root {
-    --color-one: #CCD5AE;
-    --color-two: #E9EDC9;
-    --color-three: #FEFAE0;
-    --color-four: #FAEDCD; 
-    --color-five: #D4A373;   
+    --color-one: #12395b;
+    --color-two: #ffffff;
+    --color-three: #e6f1fa;
+    --color-four: #006ec8; 
+    --color-five: #0b2237;   
 }
 body {
    background-color: var(--color-three);
    margin: 0;
-   background-image: url(abstract-background.jpg);
    background-position: center;
    background-size: cover;
 }
