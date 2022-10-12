@@ -43,9 +43,8 @@
       });
     }
 
-    window.onload(
-            firstChild.style.maxHeight = 
-            firstChild.scrollHeight + "px"
-        );
+    window.addEventListener('load', function () {
+        firstChild.style.maxHeight = firstChild.scrollHeight + "px"
+    });
 
 </script>
