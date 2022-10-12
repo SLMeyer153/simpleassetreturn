@@ -3,7 +3,8 @@
     --color-two: #ffffff;
     --color-three: #e6f1fa;
     --color-four: #006ec8; 
-    --color-five: #0b2237;   
+    --color-five: #0b2237;  
+    --color-four-hover: #8ec8f7; 
 }
 body {
    background-color: var(--color-three);
@@ -57,29 +58,14 @@ body {
     margin-right: 10%;
 }
 
-.button-header {
-    text-align: center;
-    width: 100%;
-}
-
-.top-edge {
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-}
-
-.bottom-edge {
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-}
-
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: var(--color-four);
+    color: var(--color-one);
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -87,7 +73,7 @@ body {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: var(--color-four-hover);
   }
   
   /* Style the accordion panel. Note: hidden by default */
