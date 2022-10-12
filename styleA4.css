@@ -53,28 +53,28 @@ body {
 
 .section {
     display: inline-block;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: var(--color-four);
-    color: var(--color-four-hover);
+    background-color: var(--color-four-hover);
+    color: var(--color-one);
     cursor: pointer;
     padding: 18px;
     width: 100%;
     text-align: center;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: 0.75s;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: var(--color-four-hover);
-    color: var(--color-one);
+    background-color: var(--color-four);
+    color: var(--color-four-hover);
   }
   
   /* Style the accordion panel. Note: hidden by default */
