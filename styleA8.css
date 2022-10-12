@@ -45,7 +45,11 @@ body {
 .col-2 {
     width: 1/6%;
 }
+
 .row {
+    float: left;
+}
+.row > *{
     float: left;
 }
 .header {
