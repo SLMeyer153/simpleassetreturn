@@ -28,6 +28,7 @@
 </html>
 <script>
     var acc = document.getElementsByClassName("accordion");
+    var firstChild = acc[0].nextElementSibling;
     var i;
     
     for (i = 0; i < acc.length; i++) {
@@ -43,7 +44,8 @@
     }
 
     window.onload(
-            acc[0].nextElementSibling.style.maxHeight = 
-            acc[0].nextElementSibling.scrollHeight + "px"
+            firstChild.style.maxHeight = 
+            firstChild.scrollHeight + "px"
         );
+
 </script>
