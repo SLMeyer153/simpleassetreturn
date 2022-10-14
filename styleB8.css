@@ -56,6 +56,15 @@ body {
     .accordion {
         font-size: 1.6rem;
     }
+    .panelText {
+        padding-left: 1.5%;
+        width: 63.5%;
+    }
+    .panelImg {
+        height: auto;
+        padding: 2.5%;
+        width: 30%;
+    }
 }
 @media only screen and (max-width: 480px) {
     .headerImg {
