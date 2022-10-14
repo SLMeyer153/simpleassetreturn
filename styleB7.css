@@ -25,7 +25,6 @@ body {
 }
 .panelText {
     display: inline-block;
-    padding-left: 2rem;
 }
 
 @media only screen and (min-width: 1080px){
@@ -38,11 +37,13 @@ body {
         width: 25%;
     }
     .panelText {
-        width: 60%;
+        padding-left: 2%;
+        width: 58%;
     }
     .panelImg {
         height: auto;
-        width: 40%;
+        padding: 2%;
+        width: 36%;
     }
 }
 @media only screen and (min-width: 481px) and (max-width: 1079px) {
