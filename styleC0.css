@@ -24,9 +24,12 @@ body {
     margin-right: 5%;
 }
 .panelText {
-    display: inline-block;
-    text-align: left;
+    /* display: inline-block; */
+    text-align: justify;
     text-indent: 1em;
+}
+.panelImg {
+    float: right;
 }
 
 @media only screen and (min-width: 1080px){
@@ -39,8 +42,7 @@ body {
         width: 25%;
     }
     .panelText {
-        padding-left: 2%;
-        width: 58%;
+        padding: 2%;
     }
     .panelImg {
         height: auto;
@@ -150,14 +152,14 @@ body {
   }
   
   /* Style the accordion panel. Note: hidden by default */
-    .panel {
-        background-color: var(--color-three);
-        color: var(--color-five);
-        max-height: 0;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-    }
+.panel {
+    background-color: var(--color-three);
+    color: var(--color-five);
+    max-height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
 
 
 

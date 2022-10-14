@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="styleB9.css">
+    <link rel="stylesheet" href="styleC0.css">
 </head>
 <body>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,7 @@
 
         <div class="section">
             <button class="accordion">Information</button>
-            <div class="panel row">
+            <div class="panel">
                 <img class="panelImg" src="img/infoPic.jpg">
                 <p class="panelText">
                     U.S. residents are missing many, many billions of dollars in unclaimed property.
@@ -63,7 +63,7 @@
     }
 
     window.addEventListener('load', function () {
-        firstChild.click();
+        firstChild.style.maxHeight = panel.scrollHeight + "px";
     });
 
 </script>
