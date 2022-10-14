@@ -26,15 +26,20 @@ body {
 .panelText {
     /* display: inline-block; */
     text-align: justify;
-    text-indent: 1em;
+    /* text-indent: 1em; */
     margin: 2%;
     font-size: 1.1em;
-    line-height: 1.2em;
+    line-height: 1.3em;
+    padding-bottom: 2%;
 }
 .panelImg {
     float: right;
     border: 1px solid var(--color-five);
     margin: 2%;
+}
+span {
+    display: block;
+    margin-left: 1em;
 }
 
 @media only screen and (min-width: 1080px){
