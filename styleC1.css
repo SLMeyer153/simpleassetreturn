@@ -27,6 +27,7 @@ body {
     /* display: inline-block; */
     text-align: justify;
     text-indent: 1em;
+    margin-top: 0;
 }
 .panelImg {
     float: right;
