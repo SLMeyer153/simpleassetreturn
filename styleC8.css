@@ -84,8 +84,8 @@ span {
         font-size: 2rem;
     }
     .panelText {
-        padding-left: 4%;
-        width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
     .panelImg {
         display: none;
