@@ -9,7 +9,7 @@
 body {
    background-color: var(--color-three);
    margin: 0;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,arial,sans-serif;
+   font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif,arial,sans-serif;
 }
 .container {
     margin-top: 0;
@@ -27,10 +27,13 @@ body {
     /* display: inline-block; */
     text-align: justify;
     text-indent: 1em;
-    margin-top: 0;
+    margin: 2%;
+    font-size: 1.2em;
+    line-height: 1.2em;
 }
 .panelImg {
     float: right;
+    border: 1px solid var(--color-five);
 }
 
 @media only screen and (min-width: 1080px){
@@ -47,7 +50,7 @@ body {
     }
     .panelImg {
         height: auto;
-        padding: 2%;
+        margin: 2%;
         width: 36%;
     }
 }
@@ -61,13 +64,9 @@ body {
     .accordion {
         font-size: 1.6rem;
     }
-    .panelText {
-        padding-left: 1.5%;
-        width: 63.5%;
-    }
     .panelImg {
         height: auto;
-        padding: 1%;
+        margin: 2%;
         width: 33%;
     }
 }
