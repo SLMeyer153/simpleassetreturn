@@ -23,9 +23,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
-.panelImg {
-    height: auto;
-}
+
 @media only screen and (min-width: 1080px){
     .container {
         width: 85%;
@@ -34,6 +32,13 @@ body {
     }
     .headerImg {
         width: 25%;
+    }
+    .panelText {
+        width: 60%;
+    }
+    .panelImg {
+        height: auto;
+        width: 40%;
     }
 }
 @media only screen and (min-width: 481px) and (max-width: 1079px) {
@@ -56,11 +61,14 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
-    .panelImg {
-        display: none;
-    }
     .accordion {
         font-size: 2rem;
+    }
+    .panelText {
+        width: 100%;
+    }
+    .panelImg {
+        display: none;
     }
 }
 .col-12 {
