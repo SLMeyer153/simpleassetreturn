@@ -43,6 +43,7 @@ span {
 }
 li {
     margin-top: 1em;
+    padding-right: 10%;
 }
 li > span {
     display: inline;
@@ -52,7 +53,6 @@ li > .panelImg {
     font-size: 1.1em;
     line-height: 1.3em;
     text-align: justify;
-    padding-right: 10%;
 }
 
 @media only screen and (min-width: 1080px){
@@ -160,7 +160,7 @@ li > .panelImg {
 }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
+  .accordion:hover {
     background-color: var(--color-four);
     color: var(--color-four-hover);
   }
