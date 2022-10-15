@@ -27,7 +27,7 @@ body {
     /* display: inline-block; */
     text-align: justify;
     /* text-indent: 1em; */
-    margin: 2%;
+    margin: 3%;
     font-size: 1.1em;
     line-height: 1.3em;
     padding-bottom: 2%;
@@ -43,7 +43,7 @@ span {
 }
 li {
     margin-top: 1em;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 li > span {
     display: inline;
