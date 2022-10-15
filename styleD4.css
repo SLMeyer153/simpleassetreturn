@@ -52,7 +52,7 @@ li > .panelImg {
     font-size: 1.1em;
     line-height: 1.3em;
     text-align: justify;
-    padding-left: 10%;
+    padding-right: 10%;
 }
 
 @media only screen and (min-width: 1080px){
