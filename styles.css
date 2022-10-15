@@ -44,6 +44,7 @@ span {
 li {
     margin-top: 1em;
     padding-right: 5%;
+    text-align: justify;
 }
 li > span {
     display: inline;
