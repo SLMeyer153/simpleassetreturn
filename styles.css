@@ -105,6 +105,9 @@ li > .panelImg {
     .panelImg {
         display: none;
     }
+    li {
+        padding-right: 10%;
+    }
 }
 .col-12 {
     width: 100%;
