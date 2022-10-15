@@ -85,6 +85,9 @@ li > .panelImg {
         height: auto;
         width: 33%;
     }
+    li {
+        padding-right: 7.5%;
+    }
 }
 @media only screen and (max-width: 480px) {
     .headerImg {
