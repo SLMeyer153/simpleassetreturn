@@ -41,6 +41,9 @@ span {
     display: inline-block;
     margin-left: 1em;
 }
+li {
+    margin-top: 1em;
+}
 li > span {
     display: inline;
 }
@@ -48,6 +51,8 @@ li > .panelImg {
     margin-top: 0;
     font-size: 1.1em;
     line-height: 1.3em;
+    text-align: justify;
+    padding-left: 10%;
 }
 
 @media only screen and (min-width: 1080px){
